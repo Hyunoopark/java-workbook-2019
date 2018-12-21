@@ -10,6 +10,8 @@ public class WBManager {
 		String step = s.next();
 		if(step.equalsIgnoreCase("A")) 
 			new StepAManager();
+		else if(step.equalsIgnoreCase("B")) 
+			new StepBManager();
 		
 		System.out.printf("종료되었습니다.\n");
 	}	
