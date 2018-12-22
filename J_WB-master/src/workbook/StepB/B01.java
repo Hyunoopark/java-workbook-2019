@@ -10,7 +10,7 @@ public class B01 {
 		input();
 	}
 	public void printAge() {
-		System.out.printf("당신의 나이는 %d살 입니다",getAge());
+		System.out.printf("당신의 나이는 %d살 입니다 \n",getAge());
 		isAdult();
 	}
 	

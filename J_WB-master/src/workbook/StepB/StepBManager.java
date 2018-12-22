@@ -26,16 +26,36 @@ public class StepBManager {
 				b1.printAge();
 				break;
 			case 2:
+				B02 b2 = new B02();
+				b2.printT();
 				break;
 			case 3:
+				B03 b3 = new B03();
+				b3.printArea();
 				break;
 			case 4:
+				B04 b4 = new B04();
+				b4.printArea();
 				break;
 			case 5:
+				B05 b5 = new B05();
+				b5.printSec();
 				break;
 			case 6:
+				B06 b6 = new B06();
+				b6.printScore();
 				break;
 			case 7:
+				B07 b7 = new B07();
+				b7.printFT();
+				break;
+			case 8:
+				B08 b8 = new B08();
+				b8.printCon();
+				break;
+			case 9:
+				B09 b9 = new B09();
+				b9.printBmi();
 				break;
 			}
 		}
