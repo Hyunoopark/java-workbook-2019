@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class B07 {
 	private int megabytes;
 	private long bytes;
-	String usb2;
-	int time;
+	private String usb2;
+	private int time;
 	
 	public B07() {
 		input();
