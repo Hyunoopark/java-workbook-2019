@@ -62,9 +62,6 @@ public class StepDManager {
 				D10 d10 = new D10();
 				d10.printMulti();
 				break;
-			case 11:
-				
-				break;
 			}
 		}
 		
