@@ -6,7 +6,6 @@ public class F04 {
 	private int jumsu[][] = new int[5][3];
 	private int sum[] = new int[5];
 	private double average[] = new double[5];
-	private int kor, eng, mat;
 	
 	public F04() {
 		input();
@@ -23,14 +22,8 @@ public class F04 {
 		
 		for(int i = 0; i < 5; i++) {
 			System.out.printf("%d번 학생 국어, 영어, 수학 점수를 입력하시오",i+1);
-			this.kor = s.nextInt();
-			this.eng = s.nextInt();
-			this.mat = s.nextInt();
-		
-			jumsu[i][0] = kor;
-			jumsu[i][1] = eng;
-			jumsu[i][2] = mat;
-			
+			for(int j = 0; j < 3; j++)
+				this.jumsu[i][j] = s.nextInt();
 		}
 		
 		getSum();

@@ -11,26 +11,17 @@ public class E04 {
 	
 	public void printGugu() {
 		int i, j;
-		if(mode == 1) {
-			for(i = 3; i < 10; i+=2) {
-				for(j = 1; j <= 9; j++) {
-					System.out.printf("%d X %d = %-6d",i,j,i*j);
-					if(j%3 == 0)
-						System.out.printf("\n");
-				}
-				System.out.printf("\n");
-			}
-		}
 		
-		if(mode == 2) {
-			for(i = 2; i < 10; i+=2) {
-				for(j = 1; j <= 9; j++) {
-					System.out.printf("%d X %d = %-6d   ",i,j,i*j);
-					if(j%3 == 0)
-						System.out.printf("\n");
-				}	
-				System.out.printf("\n");
+		if(mode == 1)
+			mode = 3;
+	
+		for(i = mode; i < 10; i+=2) {
+			for(j = 1; j <= 9; j++) {
+				System.out.printf("%d X %d = %-6d",i,j,i*j);
+				if(j%3 == 0)
+					System.out.printf("\n");
 			}
+			System.out.printf("\n");
 		}
 		
 	}
