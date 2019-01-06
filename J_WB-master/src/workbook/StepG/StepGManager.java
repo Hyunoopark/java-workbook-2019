@@ -15,8 +15,6 @@ public class StepGManager {
 			printf("5. PC방 이용료 계산기\n");
 			printf("6. 쇼핑몰 매출 계산기\n");
 			printf("7. 놀이공원 매표소\n");
-			printf("8. 겹치지 않는 숫자 10개 입력 받기\n");
-			printf("9. 배열을 이용한 연중 날짜 계산\n");
 			menu = s.nextInt();
 			if(menu == 0) break;
 			switch(menu) {
@@ -47,12 +45,6 @@ public class StepGManager {
 			case 7:
 				G07 g7 = new G07();
 				g7.printTotal();
-				break;
-			case 8:
-				
-				break;
-			case 9:
-				
 				break;
 			}
 		}
