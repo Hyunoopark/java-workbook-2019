@@ -49,12 +49,15 @@ public class StepJManager {
 			case 8:
 				J08 j8 = new J08();
 				j8.printAck();
+				break;
 			case 9:
 				J09 j9 = new J09();
 				j9.printPow();
+				break;
 			case 10:
 				J10 j10 = new J10();
 				j10.printFib();
+				break;
 			}
 		}
 		
